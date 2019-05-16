@@ -1,0 +1,37 @@
+{
+	"name": "mynilist",
+	"version": "1.0.0",
+	"description": "A simple and minimalist tasks list for geeks",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./out/index.js",
+		"dev": "tsc && node ./out/index.js"
+	},
+	"keywords": [],
+	"author": {
+		"name": "Franco Esparza",
+		"email": "frankoespa@gmail.com"
+	},
+	"license": "MIT",
+	"bin": {
+		"mynilist": "./out/index.js"
+	},
+	"engines": {
+		"node": ">= 8.2.1"
+	},
+	"devDependencies": {
+		"@types/cli-table": "^0.3.0",
+		"@types/inquirer": "^6.0.1",
+		"@types/nedb": "^1.8.7",
+		"@types/node": "^12.0.0",
+		"typescript": "^3.4.5"
+	},
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"clear": "^0.1.0",
+		"cli-table": "^0.3.1",
+		"inquirer": "^6.3.1",
+		"moment": "^2.24.0",
+		"nedb": "^1.8.0"
+	}
+}
