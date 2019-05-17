@@ -1,5 +1,5 @@
 {
-	"name": "mynilist",
+	"name": "sweetlist",
 	"version": "1.0.0",
 	"description": "A simple and minimalist tasks list for geeks",
 	"main": "index.js",
@@ -14,7 +14,7 @@
 	},
 	"license": "MIT",
 	"bin": {
-		"mynilist": "./out/index.js"
+		"sweetlist": "./out/index.js"
 	},
 	"engines": {
 		"node": ">= 8.2.1"
